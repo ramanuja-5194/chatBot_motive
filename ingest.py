@@ -3,7 +3,8 @@ from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
 from langchain.docstore.document import Document
 from utils.parser import parse_document
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
+# from langchain_huggingface import HuggingFaceEmbeddings
 load_dotenv()
 
 def ingest_docs():

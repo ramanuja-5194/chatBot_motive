@@ -1,8 +1,9 @@
 import os
 from dotenv import load_dotenv
 from langchain_aws import ChatBedrock
-from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
+from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain.memory import ConversationBufferMemory
 from prompts import prompt_template
 
@@ -27,7 +28,8 @@ model = ChatBedrock(
 )
 
 # Memory
-memory = ConversationBufferMemory(return_messages=True)
+history = ChatMessageHistory()
+memory = ConversationBufferMemory(return_messages=True, chat_memory=history)
 
 # ---- Formatting Layer ----
 def format_response(resp: str) -> str:
@@ -55,7 +57,7 @@ def format_response(resp: str) -> str:
 
 # Pipeline
 def chatbot(query: str):
-    retrieved_docs = retriever.get_relevant_documents(query)
+    retrieved_docs = retriever.invoke(query)
 
     if not retrieved_docs:
         context = " "
