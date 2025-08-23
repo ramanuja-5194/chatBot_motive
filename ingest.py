@@ -2,9 +2,10 @@ import os
 from dotenv import load_dotenv
 from langchain_community.vectorstores import FAISS
 from langchain.docstore.document import Document
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 from utils.parser import parse_document
 from langchain_huggingface import HuggingFaceEmbeddings
-# from langchain_huggingface import HuggingFaceEmbeddings
+
 load_dotenv()
 
 def ingest_docs():
@@ -24,17 +25,32 @@ def ingest_docs():
             "content_type": d["content_type"],
         }
         documents.append(Document(page_content=text, metadata=metadata))
+        # Apply text splitting here
+        # splitter = RecursiveCharacterTextSplitter(
+        #     chunk_size=500,      # size of each chunk
+        #     chunk_overlap=100,   # overlap so context isn’t lost
+        #     length_function=len,
+        #     separators=["\n\n", "\n", ". ", " "]  # split smartly at sentence/paragraph boundaries
+        # )
+        # chunks = splitter.split_text(text)
+
+        # for chunk in chunks:
+        #     documents.append(Document(page_content=chunk, metadata=metadata))
 
     if not documents:
         raise ValueError("No valid documents found to embed. Check parsing logic.")
 
-    # 🔹 HuggingFace embeddings (runs locally, no token limit issues)
-    embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-mpnet-base-v2")
+    # Use a strong embedding model
+    embeddings = HuggingFaceEmbeddings(
+        model_name="sentence-transformers/all-mpnet-base-v2"
+        # Alternative: "intfloat/e5-large-v2" if you want a very strong retriever
+        # sentence-transformers/all-mpnet-base-v2
+    )
 
     # Vectorstore
     db = FAISS.from_documents(documents, embeddings)
     db.save_local("vectorstore")
-    print(f"✅ Ingestion completed, stored {len(documents)} documents.")
+    print(f"✅ Ingestion completed, stored {len(documents)} chunks.")
 
 if __name__ == "__main__":
     ingest_docs()

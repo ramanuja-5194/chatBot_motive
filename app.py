@@ -3,73 +3,110 @@ from dotenv import load_dotenv
 from langchain_aws import ChatBedrock
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
-from langchain_community.chat_message_histories import ChatMessageHistory
 from langchain.memory import ConversationBufferMemory
-from prompts import prompt_template
+from langchain.prompts import ChatPromptTemplate
+from langchain.schema.output_parser import StrOutputParser
 
 load_dotenv()
 
-# Load Hugging Face embeddings
+# Embeddings
 embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-mpnet-base-v2"
 )
 
-# Load vectorstore
+# Load Vectorstore
 db = FAISS.load_local("vectorstore", embeddings, allow_dangerous_deserialization=True)
 retriever = db.as_retriever(
     search_type="mmr",
-    search_kwargs={"k": 3, "fetch_k": 5}
+    search_kwargs={"k": 5, "fetch_k": 7}
 )
 
-# Model (Claude via Bedrock)
+# LLM model
 model = ChatBedrock(
     model="us.anthropic.claude-sonnet-4-20250514-v1:0",
     model_kwargs={"temperature": 0, "max_tokens": 512}
 )
 
 # Memory
-history = ChatMessageHistory()
-memory = ConversationBufferMemory(return_messages=True, chat_memory=history)
+memory = ConversationBufferMemory(return_messages=True)
 
-# ---- Formatting Layer ----
-def format_response(resp: str) -> str:
-    resp = resp.strip()
+# ---------------- Refinement Chains ---------------- #
 
-    # Short factual answers → keep concise
-    if len(resp.split()) < 25:
-        return resp
+# Stage 1: Remove boilerplate
+clean_prompt = ChatPromptTemplate.from_messages([
+    ("system", """You are a precise assistant. Rewrite the answer 
+    to remove sentences like 'based on context', 'based on information provided',
+    or 'according to the documents'. Provide only the pure useful answer."""),
+    ("human", "{draft_answer}")
+])
 
-    # For longer responses → split into readable paragraphs
-    sentences = resp.split(". ")
-    formatted = []
-    current = []
+# Stage 2: Conciseness + structured formatting
+short_long_prompt = ChatPromptTemplate.from_messages([
+    ("system", """You are an adaptive rewriter. 
+    - If the question is factual and simple → keep the answer within 2 lines.  
+    - Otherwise → give a detailed and well-explained answer.  
+    - For longer answers, organize the response in a clear, structured format."""),
+    ("human", "{cleaned_answer}")
+])
 
-    for s in sentences:
-        current.append(s.strip())
-        if len(current) >= 2:  # group 2 sentences together
-            formatted.append(". ".join(current) + ".")
-            current = []
-    if current:
-        formatted.append(". ".join(current) + ".")
+# Stage 3: Formatting removed
 
-    return "\n\n".join(formatted)
+# Stage 4: Emoji for Yes/No
+yesno_prompt = ChatPromptTemplate.from_messages([
+    ("system", """You are a polite rewriter.
+    If the answer contains 'Yes' → add ✅ just after 'YES'.
+    If the answer contains 'No' → add ❌ just after 'NO'.
+    Otherwise, keep the answer unchanged."""),
+    ("human", "{rewritten_answer}")
+])
+
+clean_chain = clean_prompt | model | StrOutputParser()
+short_long_chain = short_long_prompt | model | StrOutputParser()
+yesno_chain = yesno_prompt | model | StrOutputParser()
 
 
-# Pipeline
+def refinement_chain(question, draft_answer):
+    """Passes the draft answer through multiple refinement stages."""
+    cleaned = clean_chain.invoke({"draft_answer": draft_answer})
+    rewritten = short_long_chain.invoke({"cleaned_answer": cleaned})
+    final_answer = yesno_chain.invoke({"rewritten_answer": rewritten})
+    return final_answer
+
+
 def chatbot(query: str):
-    retrieved_docs = retriever.invoke(query)
+    """Main chatbot logic."""
+    past_context = "\n".join(
+        [f"{m.type.upper()}: {str(m.content)}" for m in memory.chat_memory.messages]
+    )
+    retrieved_docs = retriever.invoke(query + "\n" + past_context)
 
     if not retrieved_docs:
-        context = " "
+        context = "No relevant information found in the documents."
     else:
         context = "\n\n".join([doc.page_content for doc in retrieved_docs])
 
-    final_prompt = prompt_template.format(question=query, context=context)
-    response = model.invoke(final_prompt)
+    base_prompt = f"""Answer the following question strictly using the context.
 
-    memory.save_context({"human": query}, {"ai": str(response.content)})
+Question: {query}
 
-    return format_response(str(response.content))
+Context:
+{context}
+"""
+    # Draft answer from model
+    draft_answer = model.invoke(base_prompt).content
+
+    # Refine through chain
+    final_answer = refinement_chain(query, draft_answer)
+
+    # Save conversation
+    memory.save_context({"human": query}, {"ai": final_answer})
+
+    with open("conversation.md", "a", encoding="utf-8") as f:
+        f.write(f"**HUMAN:** {query}\n\n")
+        f.write(f"**AI:** {final_answer}\n\n")
+        f.write("---\n")
+
+    return final_answer
 
 
 if __name__ == "__main__":
