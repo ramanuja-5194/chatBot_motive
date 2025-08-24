@@ -42,9 +42,10 @@ def ingest_docs():
 
     # Use a strong embedding model
     embeddings = HuggingFaceEmbeddings(
-        model_name="sentence-transformers/all-mpnet-base-v2"
+        model_name="sentence-transformers/all-roberta-large-v1"
         # Alternative: "intfloat/e5-large-v2" if you want a very strong retriever
         # sentence-transformers/all-mpnet-base-v2
+        # sentence-transformers/all-roberta-large-v1
     )
 
     # Vectorstore

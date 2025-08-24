@@ -377,3 +377,703 @@ Is there something specific you'd like to know about Shoaib Makani, Motive, or t
 If you're looking for information about a specific Virginia Tech study, you may need to provide that content separately or search for it from other sources.
 
 ---
+**HUMAN:** Who is the CEO of Motive?
+
+**AI:** Shoaib Makani is the CEO of Motive. ✅
+
+He is also the co-founder of the company, which he founded with the belief that connectivity and automation could unlock the potential of businesses that power the physical economy.
+
+---
+**HUMAN:** Why is the Motive dashcam better than Lytx's?
+
+**AI:** Based on the research and testing data provided, here are the key ways Motive's dashcam outperforms Lytx:
+
+## AI Accuracy & Speed
+• **3x more accurate** at detecting unsafe driving behavior (86% vs 32% success rate)
+• **Faster alerts** - detects events in 9.4 seconds vs Lytx's 17 seconds
+• **Phone call detection**: 95% accuracy vs Lytx's 28%, with alerts 3.1 seconds faster
+• **Texting detection**: Equal accuracy but 5.7 seconds faster alerts
+• **Close following**: 72% more accurate detection
+• **Seat belt monitoring**: 44% more accurate with alerts 12.1 seconds faster
+
+## Hardware & Technology
+• **Superior AI processor** - Uses Ambarella CV22 AI processor for enhanced performance
+• **Better video quality** - 1440p HD at 30 FPS vs lower resolution competitors
+• **Built-in battery backup** - Continues recording even if power is lost during collisions
+• **360-degree visibility** with AI Omnicam option
+
+## Support & Service
+• **Dedicated safety team** - 250+ safety experts review every event to eliminate false positives
+• **24/7 customer support** with over 300 representatives
+• **Automatic driver identification** with Face Match technology
+• **Collision footage recovery** service for damaged cameras
+
+## Integration Benefits
+• **All-in-one platform** combining driver safety, fleet management, spend management, and equipment monitoring
+• **Integrated fleet card** with discount networks
+• **Single driver app** for all functions including video review and coaching
+
+The Virginia Tech Transportation Institute and Strategy Analytics studies confirm Motive's superior performance across multiple safety scenarios.
+
+---
+**HUMAN:** Tell me more about Virginia Tech study.
+
+**AI:** The Virginia Tech Transportation Institute (VTTI) conducted an independent study comparing AI dashcam performance across three major providers: Motive, Samsara, and Lytx. Here are the key findings:
+
+## Study Results
+**Motive's AI Dashcam achieved 86% success rate** in alerting drivers to unsafe driving behaviors, significantly outperforming competitors:
+- Motive: 86% alert success rate
+- Lytx: 32% alert success rate  
+- Samsara: 21% alert success rate
+
+## Specific Behavior Detection
+The study tested detection of six unsafe driving behaviors with notable results:
+
+**Phone Calls:**
+- Motive: 95% detection rate
+- Samsara: 38% detection rate
+- Lytx: 28% detection rate
+
+**Texting:**
+- Motive: 71% detection rate
+- Samsara: 30% detection rate
+- Lytx: 13% detection rate
+
+**Rolling Stops:**
+- Motive: 77% detection rate
+- Samsara: 0% detection rate
+- Lytx: Feature deactivated during study
+
+**Seatbelt Use:**
+- Motive: 100% detection rate
+- Samsara: 0% detection rate
+- Lytx: 100% detection rate
+
+**Close Following:**
+- Motive: 67% detection rate
+- Samsara: 18% detection rate
+- Lytx: 28% detection rate
+
+## Study Methodology
+The research was conducted on a controlled test track with protocols designed to mimic real-world conditions. Testing occurred across three different times (daytime, dusk, nighttime) and three placement locations, with professional third-party installation to ensure proper setup according to each manufacturer's standards.
+
+The study was funded by Motive but conducted independently by VTTI, a leading transportation research institute known for robust safety studies.
+
+---
+**HUMAN:** What is a forward collision warning?
+
+**AI:** A forward collision warning is a safety system that alerts drivers when they're approaching another vehicle ahead of them too quickly. It works by calculating speed, distance, and time to impact to detect potential collisions before they happen.
+
+The system provides critical alerts that give drivers crucial time to brake and avoid accidents, whether they're distracted or drowsy. It's designed to address common dangerous scenarios like:
+
+• **Approaching stationary vehicles** - When drivers close in too quickly on stopped cars at intersections or in traffic
+• **Unsafe tailgating** - Following too closely behind slower-moving or braking vehicles  
+• **Sudden stops ahead** - When a vehicle suddenly stops or slows down to turn
+
+Forward collision warning systems have proven highly effective, reducing crash rates by 27%. They're particularly valuable since rear-end collisions account for 29% of all crashes, often caused by distracted or drowsy driving.
+
+---
+**HUMAN:** Who is the CEO of Motive?
+
+**AI:** Shoaib Makani is the CEO of Motive. He is also the co-founder of the company, which he founded with the belief that connectivity and automation could unlock the potential of businesses that power the physical economy.
+
+---
+**HUMAN:** Why is the Motive dashcam better than Lytx's?
+
+**AI:** Based on the research and testing data provided, here are the key ways Motive's dashcam outperforms Lytx:
+
+## AI Accuracy & Detection Speed
+• **3X more accurate** at detecting unsafe driving behavior (86% vs 32% success rate)
+• **Significantly faster alerts** - detects behaviors 3-17 seconds quicker than Lytx
+• **Superior performance across specific behaviors:**
+  - Phone calls: 95% vs 28% detection rate, 3.1 seconds faster
+  - Texting: Equal accuracy but 5.7 seconds faster alerts
+  - Close following: 72% more accurate detection
+  - Seatbelt use: 44% more accurate, 12.1 seconds faster
+  - Phone in lap: 86% more accurate, 7.5 seconds faster
+
+## Hardware & Technology
+• **Advanced AI processor** - Uses Ambarella CV22 AI processor for enhanced performance
+• **Superior video quality** - 1440p HD at 30 FPS vs lower resolution competitors
+• **Built-in battery backup** - Continues recording even if power is lost during collisions
+• **Instant cloud upload** - Critical footage uploads within seconds
+
+## Integrated Platform Benefits
+• **All-in-one solution** - Combines driver safety, fleet management, spend management, and equipment monitoring
+• **Dedicated safety team** - 250+ safety experts review every event to eliminate false positives
+• **Face Match technology** - Industry-leading driver identification accuracy
+• **360-degree visibility** - AI Omnicam provides complete vehicle monitoring
+
+The Virginia Tech Transportation Institute and Strategy Analytics studies both confirmed Motive's superior performance in head-to-head testing against Lytx's latest models.
+
+---
+**HUMAN:** Tell me more about Virginia Tech study.
+
+**AI:** I couldn't find any relevant details about a Virginia Tech study in the provided information.
+
+The context discusses a **Strategy Analytics study** that independently evaluated AI dash cam performance, comparing Motive, Lytx, and Samsara systems. This study conducted 342 separate tests under various lighting conditions and found that Motive's AI Dashcam detected unsafe driving behavior 89% of the time, significantly outperforming competitors.
+
+If you're looking for information about the Strategy Analytics research instead, I'd be happy to provide more details about those findings.
+
+---
+**HUMAN:** What is a forward collision warning?
+
+**AI:** A forward collision warning is a safety system that alerts drivers when they're approaching another vehicle ahead of them too quickly. It works by calculating speed, distance, and time to impact to detect potential collision risks.
+
+The system provides critical alerts that give drivers crucial time to brake and avoid accidents, particularly in common scenarios like:
+
+• **Approaching stationary vehicles** - When closing in too quickly on stopped cars at intersections or in traffic
+• **Unsafe tailgating** - Following too closely behind slower-moving or braking vehicles  
+• **Sudden stops ahead** - When vehicles ahead suddenly stop or slow down to turn
+
+Forward collision warning systems have proven highly effective, reducing crash rates by 27%. They're especially valuable for preventing rear-end collisions, which account for 29% of all crashes and are often caused by distracted or drowsy driving.
+
+The alerts prompt drivers to take action whether they're distracted or drowsy, providing an added layer of protection against serious collisions.
+
+---
+**HUMAN:** Unsafe parking?
+
+**AI:** Motive's AI dashcam detects unsafe parking in real-time when vehicles are stopped for at least 3 minutes on highway shoulders, on-ramps, off-ramps, or other high-risk areas with speed limits of 45 mph or higher.
+
+**Key features:**
+• **Real-time alerts** - Managers receive immediate notifications with video evidence
+• **Safety guidance** - Helps direct drivers to safer locations and set up emergency triangles
+• **Prevents collisions** - Addresses the 600 annual deaths and 15,000 injuries from stopped vehicle collisions
+
+**High-risk scenarios detected:**
+• Highway/freeway shoulder parking
+• Exit or on-ramp stops
+• Two-lane road shoulder parking
+
+The system combines telematics with computer vision AI for accurate detection, and Motive's Safety Team reviews events to remove false positives. Later this year, drivers will also receive direct real-time alerts to take immediate corrective action.
+
+---
+**HUMAN:** Can Motive detect unsafe driving behaviors?
+
+**AI:** YES ✅ Motive can detect unsafe driving behaviors.
+
+Motive's AI Dashcam detects 15 different safety events with up to 99% accuracy, including:
+
+• **Close following** - when drivers follow too closely behind other vehicles
+• **Cell phone usage** - detecting distracted driving from phone use  
+• **Driver distraction** - identifying when drivers aren't focused on the road
+• **Smoking** - detecting smoking while driving
+• **Speeding** - comparing vehicle speed to posted speed limits in real-time
+• **Hard braking, acceleration, and cornering** - detecting aggressive driving behaviors
+
+The system provides real-time alerts to drivers as dangerous behaviors occur, helping prevent accidents exactly when intervention is needed. A Virginia Tech Transportation Institute study found that Motive detects unsafe driving 3-4x more accurately than competitors.
+
+Additionally, Motive has a team of 400 safety experts who review every safety event video to remove false positives, ensuring safety managers only see genuine safety concerns that require coaching.
+
+---
+**HUMAN:** What about coaching for those behaviors?
+
+**AI:** Motive offers comprehensive coaching solutions for driver behaviors through several key features:
+
+## Automated Self-Coaching
+- **Customizable behaviors**: You can choose which behaviors drivers can self-coach, allowing them to review and learn from events independently
+- **Automatic marking**: Self-coachable events are automatically marked as "Coached" once reviewed in the Driver App - no manager action needed
+- **One-week window**: Drivers have one week to review events before requiring a coaching session with a manager
+
+## Built-in Training Videos
+Motive includes engaging, one-minute training videos for common safety issues:
+- **Cell Phone Usage** - covers dangers, legal issues, and safe alternatives
+- **Close Following** - explains tailgating risks and safe following distances  
+- **Stop Sign Violations** - teaches why complete stops matter for intersection safety
+- **Speeding** - covers collision risks and legal consequences
+
+## Coaching Program Benefits
+- **31% reduction** in coaching time through AI filtering and automated tools
+- **10 hours saved** per week for managers by eliminating false positives
+- **Higher driver engagement** as drivers take ownership of their improvement
+- **Scalable approach** that lets safety teams focus on high-risk behaviors
+
+The system combines automated coaching with traditional methods, allowing you to efficiently scale your safety program without increasing workload while maintaining focus on the most serious violations.
+
+---
+**HUMAN:** Does Motive support cell phone usage alert for safety?
+
+**AI:** YES ✅ Motive supports cell phone usage alerts for safety.
+
+Motive's AI Dashcam specifically detects and alerts to cell phone use while driving. The system provides:
+
+• **Real-time alerts** - Drivers receive immediate in-cab coaching when cell phone use is detected
+• **Automated coaching** - Videos of cell phone usage incidents are automatically sent to drivers through the Motive Driver App with personalized coaching tips
+• **Customizable focus** - Fleet managers can choose to focus exclusively on cell phone use violations
+• **Enhanced detection** - The AI Dashcam alerts drivers when they look down for more than 5 seconds at speeds over 10 mph, which includes cell phone use
+
+The system helps reduce distracted driving incidents and creates safer driving habits through both real-time coaching and follow-up education.
+
+---
+**HUMAN:** Does it also remove false positives like radios for these alerts?
+
+**AI:** I couldn't find any relevant details about removing false positives specifically for radio alerts in the provided information.
+
+However, I can share that Motive does have a dedicated Safety Team of 400 safety experts who review every safety event video to remove false positives from their AI dashcam alerts. This team ensures that drivers aren't falsely flagged for unsafe behaviors they didn't commit, and safety managers only receive genuine safety alerts rather than false positives. This human-in-the-loop review process is included at no additional cost for all Motive customers.
+
+If you're asking about a specific type of radio-related alert system, you might want to contact support directly for more detailed information about that particular feature.
+
+---
+**HUMAN:** Why is the Motive dashcam better than Lytx's?
+
+**AI:** Based on the research and testing data provided, here are the key ways Motive's dashcam outperforms Lytx:
+
+## AI Accuracy & Speed
+- **3X more accurate** at detecting unsafe driving behavior (86% vs 32% success rate)
+- **Faster alerts** - Motive alerts drivers significantly quicker across multiple behaviors:
+  - Phone calls: 3.1 seconds faster
+  - Texting: 5.7 seconds faster  
+  - Seat belt violations: 12.1 seconds faster
+
+## Specific Behavior Detection
+- **Phone calls**: 95% detection vs Lytx's 28%
+- **Texting**: 71% detection vs Lytx's 13%
+- **Phone in lap**: 86% more accurate than Lytx
+- **Close following**: 72% more accurate (67% vs 28%)
+- **Seat belt use**: 44% more accurate than Lytx
+
+## Hardware & Technology
+- **Superior AI processor**: Uses Ambarella CV22 AI processor for enhanced performance
+- **Better video quality**: 1440p HD at 30 FPS
+- **Built-in battery backup**: Continues recording even if power is lost during collisions
+- **360-degree visibility** with AI Omnicam
+
+## Integrated Platform
+Unlike Lytx, Motive combines Driver Safety, Fleet Management, Spend Management, and Equipment Monitoring in one integrated system, eliminating data silos and reducing vendor management complexity.
+
+## Support & Service
+- **Dedicated safety team**: 250+ safety experts review every event to remove false positives
+- **24/7 support**: Over 300 support representatives available around the clock
+
+These advantages are backed by independent studies from Virginia Tech Transportation Institute and Strategy Analytics.
+
+---
+**HUMAN:** Tell me more about Virginia Tech study.
+
+**AI:** I couldn't find any relevant details about a Virginia Tech study in the provided information. The documents contain information about Motive's diversity initiatives, recruiting strategies for Gen Z in the trucking industry, and company announcements, but there's no mention of any Virginia Tech research or study.
+
+If you're looking for information about studies related to transportation, workforce development, or technology in fleet operations, I'd be happy to help with what's available in the context provided.
+
+---
+**HUMAN:** Why is the Motive dashcam better than Lytx's?
+
+**AI:** Based on the research and testing data provided, here are the key ways Motive's dashcam outperforms Lytx's:
+
+## AI Accuracy & Speed
+- **3X more accurate** at detecting unsafe driving behavior (86% vs 32% success rate)
+- **Faster alerts** - Motive alerts drivers significantly quicker across multiple behaviors:
+  - Phone calls: 3.1 seconds faster
+  - Texting: 5.7 seconds faster  
+  - Seat belt violations: 12.1 seconds faster
+
+## Specific Detection Performance
+- **Phone calls**: 95% detection vs Lytx's 28%
+- **Texting**: 71% detection vs Lytx's 13%
+- **Close following**: 67% detection vs Lytx's 28%
+- **Phone in lap**: 86% more accurate detection
+
+## Hardware & Technology
+- **Superior AI processor**: Uses Ambarella CV22 AI processor for enhanced performance
+- **Better video quality**: 1440p HD resolution at 30 FPS
+- **Built-in battery backup**: Continues recording even if power is lost during collisions
+- **Instant upload**: Collision footage uploads within seconds
+
+## Additional Advantages
+- **Integrated platform**: Combines driver safety, fleet management, spend management, and equipment monitoring in one system
+- **Dedicated safety team**: 250+ safety experts review every event to eliminate false positives
+- **24/7 support**: Award-winning customer support available around the clock
+- **Face Match technology**: Industry-leading driver identification accuracy
+
+The performance differences are backed by independent studies from Virginia Tech Transportation Institute and Strategy Analytics.
+
+---
+**HUMAN:** Tell me more about Virginia Tech study.
+
+**AI:** I couldn't find any relevant details about a Virginia Tech study in the provided information. The documents contain information about Motive's diversity initiatives, recruiting strategies for Gen Z in the trucking industry, and company announcements, but there's no mention of any Virginia Tech research or study.
+
+If you're looking for information about studies related to transportation, workforce development, or technology in fleet operations, I'd be happy to help with what's available in the context.
+
+---
+**HUMAN:** Why is the Motive dashcam better than Lytx's?
+
+**AI:** Based on independent testing by Virginia Tech Transportation Institute and Strategy Analytics, Motive's dashcam significantly outperforms Lytx's in several key areas:
+
+## **AI Accuracy & Speed**
+• **Overall detection accuracy**: Motive achieves 86% success rate vs. Lytx's 32%
+• **Phone call detection**: Motive detects 95% of events in 7.5 seconds vs. Lytx's 28% in 21 seconds
+• **Texting detection**: Equal accuracy but Motive alerts 5.7 seconds faster
+• **Close following**: Motive has 100% success vs. Lytx's 36%, with faster alerts
+• **Phone in lap**: Motive is 86% more accurate and alerts 7.5 seconds faster
+
+## **Advanced Features**
+• **Collision protection**: Built-in battery backup ensures continuous recording even if power is lost
+• **Safety team support**: 250+ safety experts review every event to eliminate false positives
+• **Face Match technology**: Automatic driver identification with industry-leading accuracy
+• **Superior hardware**: Uses Ambarella CV22 AI processor for enhanced 1440p video quality
+
+## **Integrated Platform**
+Unlike Lytx, Motive combines Driver Safety, Fleet Management, Spend Management, and Equipment Monitoring in one integrated system, eliminating data silos and reducing vendor management complexity.
+
+The testing was conducted under controlled conditions across day, night, and twilight scenarios with professional installation and equal camera positioning rotations.
+
+---
+**HUMAN:** Tell me more about Virginia Tech study.
+
+**AI:** I couldn't find any relevant details about a Virginia Tech study in the provided information. The documents contain information about Motive's diversity initiatives, company culture, recruiting strategies for the trucking industry, and executive team announcements, but there's no mention of Virginia Tech or any studies conducted by that university.
+
+---
+**HUMAN:** Why is the Motive dashcam better than Lytx's?
+
+**AI:** Based on independent testing by Virginia Tech Transportation Institute and Strategy Analytics, the Motive dashcam significantly outperforms Lytx's in several key areas:
+
+**AI Accuracy & Speed:**
+• Motive successfully alerts drivers to unsafe behavior **86%** of the time vs. Lytx's **32%** ✅
+• Motive detects unsafe behavior with **89%** accuracy vs. Lytx's **61%** accuracy
+• Motive alerts drivers **3-13 seconds faster** across different unsafe behaviors
+
+**Specific Performance Comparisons:**
+• **Phone calls**: Motive 95% success vs. Lytx 28%, alerting 3.1 seconds faster
+• **Texting**: Equal accuracy but Motive alerts 5.7 seconds faster  
+• **Close following**: Motive 72% more accurate than Lytx
+• **Phone in lap**: Motive 86% more accurate, alerting 7.5 seconds faster
+• **Seat belt violations**: Both achieve 100%, but Motive alerts 12.1 seconds faster
+
+**Additional Advantages:**
+• **Hardware**: Motive uses the superior Ambarella CV22 AI processor vs. Lytx's older technology
+• **Video quality**: 1440p HD resolution at 30 FPS
+• **Safety team**: 250+ safety experts review every event to eliminate false positives
+• **Integrated platform**: Combines driver safety, fleet management, and spend management in one system
+• **Customer support**: 24/7 support with 300+ representatives
+
+The faster alert times are crucial since every second matters in preventing accidents - 5 seconds at 55 mph equals driving the length of a football field with eyes closed.
+
+---
+**HUMAN:** Tell me more about Virginia Tech study.
+
+**AI:** I couldn't find any relevant details about a Virginia Tech study in the provided information. The documents contain information about Motive's company culture, diversity initiatives, partnerships with organizations like Base10 Partners and Tallo, executive announcements, and their Vision 24 conference, but there's no mention of any Virginia Tech research or study.
+
+If you're looking for information about a specific study, you might want to check Virginia Tech's official research publications or contact them directly.
+
+---
+**HUMAN:** Why is the Motive dashcam better than Lytx's?
+
+**AI:** Motive's dashcam outperforms Lytx in several key areas:
+
+**AI Accuracy & Speed**
+• Motive detects unsafe driving behavior **86%** of the time vs. Lytx's **32%** ✅
+• Motive is **3x more accurate** than Lytx at identifying unsafe behaviors
+• Alerts drivers significantly faster across all scenarios
+
+**Specific Performance Comparisons:**
+• **Phone calls**: Motive 95% success vs. Lytx 28%, alerting 3.1 seconds faster
+• **Texting**: Equal accuracy but Motive alerts 5.7 seconds faster  
+• **Close following**: Motive 72% more accurate than Lytx
+• **Phone in lap**: Motive 86% more accurate, alerting 7.5 seconds faster
+• **Seat belt violations**: Both achieve 100% accuracy, but Motive alerts 12.1 seconds faster
+
+**Advanced Technology**
+• Uses superior Ambarella CV22 AI processor for enhanced performance
+• 1440p HD video quality at 30 FPS
+• Built-in battery backup ensures continuous recording even during power loss
+
+**Comprehensive Safety Team**
+• 250-person safety team reviews every event to eliminate false positives
+• Removes the burden of manually reviewing alerts from fleet managers
+
+**Integrated Platform**
+• Combines driver safety, fleet management, spend management, and equipment monitoring in one system
+• Eliminates data silos that exist with separate vendor solutions
+
+These improvements translate to real results - customers switching from Lytx to Motive have seen 33% reduction in accident rates and captured millions in exoneration value from false claims.
+
+---
+**HUMAN:** Tell me more about Virginia Tech study.
+
+**AI:** I couldn't find any relevant details about a Virginia Tech study in the provided information. The documents contain information about Motive's company culture, diversity initiatives, recruiting strategies for the trucking industry, executive announcements, and various company recognitions, but there's no mention of any Virginia Tech study or research.
+
+If you're looking for information about a specific study related to Motive or the transportation industry, you might want to check Motive's official website or contact them directly for more details.
+
+---
+**HUMAN:** Why is the Motive dashcam better than Lytx's?
+
+**AI:** Motive's dashcam outperforms Lytx's in several key areas:
+
+**AI Accuracy & Speed**
+• Motive achieves 89% detection accuracy vs. Lytx's 61%
+• Motive detects unsafe behaviors 3X more accurately than Lytx
+• Significantly faster alert times across all safety events
+
+**Specific Performance Comparisons:**
+• **Phone calls**: Motive is 76% more accurate and alerts 3.1 seconds faster
+• **Close following**: Motive is 72% more accurate than Lytx
+• **Seat belt violations**: Motive is 44% more accurate and alerts 12.1 seconds faster  
+• **Phone in lap**: Motive is 86% more accurate and alerts 7.5 seconds faster
+
+**Advanced Technology**
+• Uses superior Ambarella CV22 AI processor for enhanced performance
+• HD video quality up to 1440p at 30 FPS
+• 360-degree visibility with AI Omnicam
+
+**Integrated Platform Benefits**
+• Only platform combining Driver Safety, Fleet Management, Spend Management, and Equipment Monitoring in one system
+• Integrated fleet card with fuel/maintenance discounts
+• Eliminates data silos between safety, operations, and finance teams
+
+**Enhanced Support & Features**
+• 250-person safety team reviews every event to remove false positives
+• Award-winning 24/7 customer support with 300+ representatives
+• Face Match technology for automatic driver identification
+• Enterprise customers achieve ROI 61% faster than Lytx customers
+
+These advantages are validated by independent studies from Virginia Tech Transportation Institute and Strategy Analytics.
+
+---
+**HUMAN:** Tell me more about Virginia Tech study.
+
+**AI:** The Virginia Tech Transportation Institute (VTTI) conducted a controlled test track study comparing AI dashcam performance from three major providers: Motive, Samsara, and Lytx. Here are the key findings:
+
+## Overall Performance
+Motive's AI Dashcam successfully alerted drivers to unsafe driving behavior **86% of the time**, significantly outperforming Samsara (21%) and Lytx (32%).
+
+## Specific Behavior Detection Rates
+
+**Distracted Driving:**
+• Phone calls: Motive 95%, Samsara 38%, Lytx 28%
+• Texting: Motive 71%, Samsara 30%, Lytx 13%
+
+**Traffic Violations:**
+• Rolling stops: Motive 77%, Samsara 0% (Lytx excluded due to deactivated feature)
+• Close following: Motive 67%, Samsara 18%, Lytx 28%
+
+**Safety Equipment:**
+• Seat belt use: Motive 100%, Lytx 100%, Samsara 0%
+
+## Study Methodology
+The research was conducted from March to May 2023 on a closed test track, designed to mimic real-world conditions. Testing occurred at three different times (daytime, dusk, nighttime) and three placement locations, with professional third-party installation to ensure proper camera placement.
+
+## Response Time
+Motive's system also demonstrated significantly shorter alert times compared to competitors for phone calls, texting, seat belt violations, and close following scenarios.
+
+The study was funded by Motive, and the full report and methodology are available for review.
+
+---
+**HUMAN:** Does Motive support cell phone usage alert for safety?
+
+**AI:** YES ✅ - Motive does support cell phone usage alerts for safety.
+
+The Motive AI Dashcam can detect cell phone use as one of the unsafe driving behaviors that trigger video recordings. When cell phone usage is detected, it can trigger recordings and alerts as part of their driver safety monitoring system. This helps fleet managers identify and address unsafe cell phone usage while driving to improve overall fleet safety.
+
+---
+**HUMAN:** Does it also remove false positives like radios for these alerts?
+
+**AI:** I couldn't find any relevant details about removing false positives specifically for radios in the provided context.
+
+However, the documents do mention that Motive has a comprehensive approach to eliminating false positives in their AI dashcam system:
+
+• Their 400-member Safety Team reviews safety videos and removes false positives to ensure drivers aren't unfairly penalized
+• They achieve high accuracy rates with minimal false positives across different safety events (for example, 98% accuracy with only 2% false positives for cell phone detection)
+• The system is designed to distinguish between actual safety risks and safe situations
+
+For specific information about radio-related false positive filtering, you may want to contact their support team directly.
+
+---
+**HUMAN:** Does Motive support cell phone usage alert for safety?
+
+**AI:** YES ✅ Motive does support cell phone usage alerts for safety.
+
+Motive's AI Dashcam can detect cell phone use as one of the unsafe driving practices that trigger video recordings. The system detects over 15 different unsafe behaviors with industry-leading accuracy and provides automated driver coaching to help reduce these risky behaviors. When cell phone usage is detected, it can trigger recordings and alerts to help improve driver safety and reduce accidents.
+
+---
+**HUMAN:** Does it also remove false positives like radios for these alerts?
+
+**AI:** I couldn't find any relevant details about removing false positives specifically for radios in the provided context.
+
+However, I can share that Motive's AI system does actively work to eliminate false positives in general. Their 400-member Safety Team reviews safety videos and removes false positives to ensure drivers aren't unfairly penalized and managers can focus on real safety issues. For example, they detect 99% of drowsiness events with only 1% false positives, and 98% of cell phone usage events with only 2% false positives.
+
+If you're experiencing false positive alerts related to radios specifically, I'd recommend contacting their support team for more targeted assistance.
+
+---
+**HUMAN:** Can Motive detect unsafe driving behaviors?
+
+**AI:** YES ✅ - Motive can detect unsafe driving behaviors with industry-leading accuracy.
+
+The Motive AI Dashcam successfully identifies unsafe driving behavior up to 4X more accurately than competitors, according to studies by the Virginia Tech Transportation Institute and Strategy Analytics. The system detects 15 different safety events with up to 99% accuracy.
+
+**Key features for unsafe behavior detection:**
+• **AI-powered dashcams** with advanced Ambarella CV22 AI processor
+• **Real-time detection** of critical unsafe behaviors 
+• **360-degree visibility** with AI Omnicam for comprehensive monitoring
+• **Dedicated Safety Team** of 250+ experts who review every safety event to remove false positives
+• **Immediate driver coaching** through the Driver App after unsafe events
+• **HD video quality** (1440p at 30 FPS) for clear incident documentation
+
+The system provides personalized, timely feedback to drivers on unsafe behaviors and enables safety managers to maintain coaching records while focusing only on genuine safety concerns.
+
+---
+**HUMAN:** What about coaching for those behaviors?
+
+**AI:** Motive offers comprehensive coaching solutions to help improve driver behaviors through multiple approaches:
+
+**Automated Coaching Tools:**
+- AI-powered dashcam technology that identifies coachable events automatically
+- Built-in training videos for common safety issues (cell phone usage, close following, stop sign violations, speeding)
+- Self-coaching capabilities where drivers can review their own events in the Driver App
+- In-cab alerts that provide real-time corrections when unsafe behaviors occur
+
+**Integrated Coaching Platform:**
+- Combines both safety and compliance coaching in one unified system
+- Automatically marks events with coaching statuses (Needs Review, Coachable, Coached, Not Coachable)
+- Tracks progress with detailed reports and conversation notes
+- Reduces administrative burden by streamlining the entire coaching workflow
+
+**Flexible Coaching Methods:**
+- **In-person coaching** for building relationships and handling serious violations
+- **Remote coaching** via phone or video for timely incident discussions
+- **Automated coaching** for continuous engagement and real-time feedback
+
+**Key Benefits:**
+- Saves managers up to 10 hours per week by filtering false positives
+- Reduces coaching time by 31% on average
+- Allows drivers to self-coach on lower-priority behaviors
+- Focuses manager attention on high-risk behaviors like cell phone usage
+
+The system helps create a culture of safety while making coaching more efficient and scalable for fleets of any size.
+
+---
+**HUMAN:** What is a forward collision warning?
+
+**AI:** A forward collision warning is a safety system that detects when your vehicle is approaching another vehicle ahead too quickly and provides critical alerts to help prevent rear-end collisions.
+
+The system works by calculating speed, distance, and time to impact, then alerting drivers to brake in time - whether they're distracted or drowsy. It's designed to address common dangerous scenarios like:
+
+• **Approaching stationary vehicles** - When closing in too quickly on stopped cars at intersections or in traffic
+• **Unsafe tailgating** - Following too closely behind slower-moving or braking vehicles  
+• **Sudden stops ahead** - When vehicles ahead suddenly stop or slow down to turn
+
+Forward collision warning systems are highly effective, reducing crash rates by 27%. The alerts give drivers crucial reaction time to avoid accidents, and safety managers can also receive these notifications for coaching purposes and incident review.
+
+---
+**HUMAN:** Unsafe parking?
+
+**AI:** Motive's AI dashcam detects unsafe parking in real-time and sends immediate alerts to managers when drivers park in dangerous locations like highway shoulders, on-ramps, or off-ramps where speed limits are 45+ mph.
+
+**Key features:**
+• **Real-time detection** - Flags vehicles stopped for 3+ minutes in high-risk areas
+• **Instant alerts** - Managers get immediate notifications with video evidence
+• **Proactive response** - Helps guide drivers to safer locations quickly
+• **Prevents accidents** - Addresses the 600 annual fatalities from collisions with stopped vehicles
+
+**High-risk scenarios covered:**
+- Highway/freeway shoulders
+- Exit and on-ramps  
+- Narrow two-lane roads
+
+The system combines vehicle data with computer vision AI for accurate detection, and Motive's safety team reviews events to remove false positives. This helps companies enforce no-shoulder-parking policies and potentially prevent devastating high-speed collisions.
+
+---
+**HUMAN:** What kinds of things can Omnicam detect?
+
+**AI:** The AI Omnicam can detect a wide range of safety and operational issues:
+
+**Current Detection Capabilities:**
+• Collisions (side and rear impacts)
+• Unsafe lane changes
+• Blocked camera views
+• Unauthorized access to cargo areas and trailers
+• Cargo theft and tampering
+
+**Upcoming AI Detection Features:**
+• Risky behaviors like unsafe lane changes
+• Incorrect cargo loading procedures
+• Improper use of safety gear
+• Workers without proper safety equipment (like hard hats)
+• Improper handling of hazardous materials
+
+**Industry-Specific Monitoring:**
+• **Construction:** Safety gear compliance, heavy machinery operation
+• **Oil & Gas:** Spills, leaks, proper loading/unloading procedures
+• **Passenger Transit:** Unruly passenger behavior, theft, vandalism
+• **Trucking:** Cargo handling, loading dock disputes, delivery proof
+
+The camera provides 360-degree monitoring for sides, rear, passenger areas, and cargo spaces, capturing everything in 1080p HD video with a 144° field of view for clear evidence day and night.
+
+---
+**HUMAN:** Can it detect cargo theft?
+
+**AI:** YES ✅ - Motive's security solution can detect cargo theft through multiple AI-powered technologies:
+
+**Real-time Detection:**
+- GPS tracking with instant alerts when vehicles deviate from routes or enter/exit designated areas
+- Geofencing that triggers alerts for unauthorized movement
+- AI-powered cameras (AI Omnicam and AI Dashcam) providing 360-degree visibility around vehicles and cargo
+- Door sensors that detect and alert when cargo areas are accessed
+
+**Advanced Monitoring:**
+- Live streaming capabilities allowing dispatchers to assess situations in real-time
+- Driver identification systems that detect unauthorized vehicle use
+- Asset Gateway Mini for continuous visibility into cargo location and status
+- Engine immobilization to remotely stop stolen vehicles
+
+**Automated Alerts:**
+- Immediate notifications for suspicious activity
+- Vehicle and spend location mismatch detection
+- Fuel level and purchase amount discrepancies
+- Panic button for drivers to discreetly alert dispatchers during emergencies
+
+The system has proven effective - one customer recovered four stolen vehicles immediately after switching to Motive, compared to an 8-month recovery time with their previous vendor. The technology helps detect theft attempts as they happen and provides video evidence for law enforcement and insurance claims.
+
+---
+**HUMAN:** Who is the CEO of Motive?
+
+**AI:** The CEO of Motive is **Shoaib Makani**, who is also the co-founder of the company. He founded Motive with the belief that connectivity and automation could unlock the potential of businesses that power the physical economy.
+
+---
+**HUMAN:** How accurate are the Motive Card fraud alerts?
+
+**AI:** The Motive Card fraud alerts are highly accurate, with **over 90% accuracy** when flagging fraudulent transactions. ✅
+
+This exceptional accuracy is achieved through Motive's AI-powered platform that integrates fleet telematics data with spend management, combining real-time vehicle location information with transaction data. This comprehensive approach allows the system to detect fraud with "unprecedented accuracy and speed."
+
+During a 30-day customer trial, the fraud controls successfully identified over $250,000 in fraudulent transactions from more than 1,200 unauthorized transactions, demonstrating their proven effectiveness in real-world scenarios.
+
+If a transaction is incorrectly flagged, fleet managers can review it and provide feedback, which helps continuously improve the accuracy of the fraud detection models.
+
+---
+**HUMAN:** Does Motive provide fleet tracking and suggest fuel-efficient routes?
+
+**AI:** YES ✅, Motive provides both fleet tracking and fuel-efficient route optimization features.
+
+**Fleet Tracking:**
+- Real-time GPS tracking with updates as fast as every 2 seconds
+- Live vehicle location monitoring and historical tracking
+- Full fleet visibility through their integrated dashboard
+- Vehicle Gateway hardware with built-in cellular connectivity
+
+**Route Optimization:**
+- Route optimization capabilities that analyze driver activity and vehicle routes
+- Custom navigation tools to avoid common road hazards
+- Traffic and weather overlays for better routing decisions
+- Trip history reports to improve performance and reduce delays
+- Tools to streamline delivery operations and reduce travel time and fuel costs
+
+The system also provides additional fuel management features like tracking fuel consumption, identifying non-productive idling, and detecting fuel theft through their integrated telematics platform.
+
+---
+**HUMAN:** Can the AI Dashcam record an event manually?
+
+**AI:** YES ✅ - The AI Dashcam has a built-in Quick Capture button that allows for manual event recording.
+
+This feature lets drivers instantly initiate an automatic video upload to safety departments whenever they need to manually record an event or incident.
+
+---
+**HUMAN:** Is the Motive ELD solution compliant with the U.S. and Canada ELD mandates?
+
+**AI:** YES ✅ The Motive ELD solution is compliant with both U.S. and Canada ELD mandates.
+
+Motive's ELD is now Canadian-certified on both Android and iOS, meeting the Canadian ELD mandate rules. The solution has been helping fleets stay compliant in Canada and the U.S. since 2017.
+
+For Canadian certification, Motive underwent rigorous technical testing with CSA Group, an accredited third-party certification body, and passed extensive road and bench testing. Motive is officially listed on Transport Canada's website as an approved provider.
+
+The solution supports both Canadian and U.S. Hours of Service rules, allowing drivers to toggle between the two regulatory frameworks as needed for cross-border operations.
+
+---
