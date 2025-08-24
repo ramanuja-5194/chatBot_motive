@@ -4,7 +4,7 @@ from langchain_aws import ChatBedrock
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.memory import ConversationBufferMemory
-from prompts import prompt_template  # <-- use the unified prompt
+from prompts import prompt_template  # <-- unified prompt
 
 load_dotenv()
 
@@ -16,14 +16,14 @@ embeddings = HuggingFaceEmbeddings(
 # Load Vectorstore
 db = FAISS.load_local("vectorstore", embeddings, allow_dangerous_deserialization=True)
 retriever = db.as_retriever(
-    search_type="similarity",
+    search_type="similarity",   # deterministic instead of MMR
     search_kwargs={"k": 7}
 )
 
 # LLM model
 model = ChatBedrock(
     model="us.anthropic.claude-sonnet-4-20250514-v1:0",
-    model_kwargs={"temperature": 0.2, "max_tokens": 512}
+    model_kwargs={"temperature": 0, "max_tokens": 512}
 )
 
 # Memory
@@ -32,16 +32,16 @@ memory = ConversationBufferMemory(return_messages=True)
 
 def chatbot(query: str):
     """Main chatbot logic."""
-    # Retrieve past conversation context
-    # past_context = "\n".join(
-    #     [f"{m.type.upper()}: {str(m.content)}" for m in memory.chat_memory.messages]
-    # )
+    # Retrieve docs for this query (only latest query, not full memory)
     retrieved_docs = retriever.invoke(query)
 
     if not retrieved_docs:
         context = "I couldn’t find any relevant information."
+        top_url = None
     else:
         context = "\n\n".join([doc.page_content for doc in retrieved_docs])
+        # get top doc url if exists
+        top_url = retrieved_docs[0].metadata.get("url") if "url" in retrieved_docs[0].metadata else None
 
     # Use unified prompt template
     prompt = prompt_template.format_messages(
@@ -51,6 +51,10 @@ def chatbot(query: str):
 
     # Get answer from model
     final_answer = model.invoke(prompt).content
+
+    # Add top URL if available
+    if top_url:
+        final_answer += f"\n\n🔗 Reference: {top_url}"
 
     # Save conversation
     memory.save_context({"human": query}, {"ai": str(final_answer)})
